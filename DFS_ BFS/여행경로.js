@@ -43,7 +43,7 @@ function solution(tickets) {
      * @returns 유효한 경로인가?에 대한 값을 boolean값으로 반환함
      */
     const dfs = (start, count) => {
-        result.push(str);
+        result.push(start);
 
         if (count === len) {
             answer = result;

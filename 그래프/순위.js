@@ -10,6 +10,7 @@ function solution(n, results) {
         graph[win][win] = 0;
         graph[lose][lose] = 0;
     });
+
     // 플루이드 워셜 알고리즘 사용
     for (let i = 1; i < n + 1; i++) {
         for (let j = 1; j < n + 1; j++) {
